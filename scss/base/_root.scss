@@ -1,0 +1,22 @@
+@use '../abstracts/variables' as *;
+
+
+:root{
+    /* Font-familly*/
+      --ff-sans: #{$ff-sans};
+    /* Font-sizes*/
+    @each $font-size-key, $font-size-value in $font-sizes {
+      --fs-#{$font-size-key}: #{$font-size-value};
+    }
+  
+    /* Colors */
+    @each $color, $value in $colors {
+        --clr-#{$color}:#{$value};
+      }
+
+    // /* Font-weights*/
+    // @each $font-weight,  $font-weigh-v  in $fw {
+    //   --fw-#{$font-weight}: #{$font-weight-v};
+    // }
+    
+  }

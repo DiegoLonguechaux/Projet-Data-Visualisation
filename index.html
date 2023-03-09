@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+     <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+     <link rel="stylesheet" href="./css/style.css">
+     
+</head>
+<body>
+<header>
+     <img src="./img/loupe.png" alt="loupe" class="loupe">
+     <h1>Les festivals en France</h1>
+     <img src="./img/Simpleicons_Places_map-marker-point.svg.png" alt="marker" class="marker">
+</header>
+<div class="text">
+     <h2>Carte des festivals en France</h2>
+</div>
+
+<div class="graphique1">
+     <p>Cette carte répertorie tous les festivals présents en France et sur les territoire d'outre mer. Lorsque vous cliquez sur un marqueur, un pop-up apparaît et vous donne quelques informations sur le festivals sélectionné.</p>
+     <div id="map"></div>
+</div>
+<hr>
+<div class="text">
+     <h2>Nombre de festivals par région</h2>
+</div>
+
+<div class="graphique2">
+     <p>Ce graphique représente le nombre de festivals présents dans chaque région de France ainsi que dans les DOM-TOM.</p>
+     <div>
+          <canvas id="myChart"></canvas>
+      </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+<footer>
+     <p class="footer">Diego Longuechaux,Victor Andrieux--Aréna Saé3.03</p>
+</footer>
+</body>
+</html>

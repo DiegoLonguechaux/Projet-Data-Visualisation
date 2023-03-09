@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&family=Roboto:wght@400;900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: none;
+  padding: none;
+}
+
+:root {
+  /* Font-familly*/
+  --ff-sans: 'Roboto', sans-serif;
+  /* Font-sizes*/
+  --fs-h1s: 4rem;
+  --fs-h1l: 5rem;
+  --fs-h2s: 1.5rem;
+  --fs-h2l: 2rem;
+  /* Colors */
+  --clr-neutral:#262525;
+  --clr-bg:rgba(253, 253, 253, 0.8117647059);
+  --clr-bg2:rgba(221, 221, 221, 0.6196078431);
+  --clr-light:#FFFFFF;
+}
+
+body {
+  background-color: var(--clr-bg2);
+  font-family: var(--ff-sans);
+}
+
+h1 {
+  font-size: var(--fs-h1s);
+  font-family: var(--ff-sans);
+  text-transform: uppercase;
+}
+
+header {
+  height: 300px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  color: var(--clr-black);
+  background-size: cover;
+}
+
+footer {
+  padding: 2rem;
+}
+
+.loupe {
+  max-width: 45px;
+  max-height: 45px;
+  margin-left: 2rem;
+}
+
+.marker {
+  max-width: 45px;
+  max-height: 45px;
+  margin-right: 2rem;
+  rotate: 20deg;
+}
+
+.graphique1 {
+  padding: 2rem;
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-bg);
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#myChart {
+  width: 400px;
+  height: 300px;
+  border: 2px solid;
+}
+
+#map {
+  width: 300px;
+  height: 300px;
+  border: 2px solid;
+}
+
+.graphique2 {
+  padding: 2rem;
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clr-bg);
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.text {
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-content: flex-start;
+  padding: 2rem;
+}
+
+h2 {
+  font-size: var(--fs-h2l);
+}
+
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--fs-h2s);
+  font-family: var(--ff-sans);
+  max-width: 800px;
+}
+
+@supports (display: flex) {
+  @media screen and (min-width: 1000px) {
+    h1 {
+      font-size: var(--fs-h1l);
+    }
+    #map {
+      min-width: 900px;
+      min-height: 700px;
+    }
+    #myChart {
+      min-width: 900px;
+      min-height: 600px;
+      border: 2px solid;
+    }
+    .graphique1 {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .graphique2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .text {
+      display: flex;
+      text-align: left;
+    }
+  }
+}/*# sourceMappingURL=style.css.map */

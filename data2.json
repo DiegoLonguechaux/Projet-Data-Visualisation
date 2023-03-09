@@ -1,0 +1,58 @@
+[ 
+  {
+    "nom_region": "Auvergne-Rhône-Alpes",
+    "nb_festivals": "431"
+  },
+  {
+    "nom_region": "Bourgogne-Franche-Comté",
+    "nb_festivals": "145"
+  },
+  {
+    "nom_region": "Bretagne",
+    "nb_festivals": "219"
+  },
+  {
+    "nom_region": "Centre-Val de Loire",
+    "nb_festivals": "119"
+  },
+  {
+    "nom_region": "Corse",
+    "nb_festivals": "24"
+  },
+  {
+    "nom_region": "Grand Est",
+    "nb_festivals": "217"
+  },
+  {
+    "nom_region": "Hauts-de-France",
+    "nb_festivals": "167"
+  },
+  {
+    "nom_region": "Île-de-France",
+    "nb_festivals": "399"
+  },
+  {
+    "nom_region": "Normandie",
+    "nb_festivals": "128"
+  },
+  {
+    "nom_region": "Nouvelle-Aquitaine",
+    "nb_festivals": "362"
+  },
+  {
+    "nom_region": "Occitanie",
+    "nb_festivals": "382"
+  },
+  {
+    "nom_region": "Pays de la Loire",
+    "nb_festivals": "190"
+  },
+  {
+    "nom_region": "Provence-Alpes-Côte d'Azur",
+    "nb_festivals": "319"
+  },
+  {
+    "nom_region": "DOMTOM",
+    "nb_festivals": "34"
+  }  
+]
